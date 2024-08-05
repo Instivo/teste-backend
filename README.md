@@ -34,7 +34,8 @@ O teste consiste em desenvolver uma aplicação API-REST robusta e escalável pa
         - Cálculo de 35% do salário bruto, com considerações sobre possíveis erros de cálculo.
     - Persistência de Dados: Utilizar MongoDB para salvar os dados, garantindo que a estrutura de dados siga os princípios de design de banco de dados.
     - Consultas: Criar endpoints RESTful para consulta dos dados salvos, permitindo acesso global e individual, com suporte a filtros e paginação.
-    - Documentação e Testes: O retorno deve ser validado utilizando Insomnia, Postman ou Curl. Implementar testes automatizados (unitários e de integração) para garantir a qualidade do código.
+    - Documentação e Testes: O retorno deve ser validado utilizando Insomnia, Postman ou Curl. 
+    - Implementar testes automatizados (unitários e de integração) para garantir a qualidade do código.
     - Configuração Docker: O projeto deve ser configurado para rodar em um ambiente Docker, incluindo um Dockerfile e um docker-compose.yml para facilitar a orquestração.
     - Documentação com OpenAPI: Criar uma documentação detalhada utilizando a especificação OpenAPI, garantindo que todos os endpoints, parâmetros e respostas sejam bem descritos. Isso deve incluir exemplos de requisições e respostas, facilitando o uso da API por outros desenvolvedores.
     - Controller Advice: Implementar um Controller Advice para tratamento de erros, garantindo que exceções sejam capturadas e retornadas em um formato JSON consistente e informativo, seguindo as melhores práticas de tratamento de erros.
