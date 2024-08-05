@@ -3,7 +3,7 @@
 
 # Desenvolvedor Pleno
 
-O teste consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java 17 com o framework Spring Boot. O objetivo é desenvolver um endpoint que receba a data de admissão e o valor salarial bruto, realizando as seguintes tarefas.
+O teste consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java na versão 17 ou superior com o framework Spring Boot. O objetivo é desenvolver um endpoint que receba a data de admissão e o valor salarial bruto, realizando as seguintes tarefas.
 
     - Validação de Campos: Implementar validações para garantir a tipagem correta e o controle de caracteres dos campos recebidos.
     - Cálculo e Retorno: Ao receber a data e o valor, o endpoint deve retornar um JSON com:
@@ -12,7 +12,7 @@ O teste consiste em criar uma aplicação API-REST para cálculos de data e valo
     - Persistência de Dados: Os dados devem ser salvos em um banco de dados MongoDB.
     - Consultas: Criar um endpoint para consulta dos dados salvos, permitindo acesso global e individual.
     - Documentação: O retorno deve ser testado e validado utilizando ferramentas como Insomnia, Postman ou Curl.
-    - Configuração Docker: O projeto deve ser configurado para rodar em um ambiente Docker.
+    - Configuração Docker: O projeto deve ser configurado para rodar em um ambiente Docker, incluindo um Dockerfile e um docker-compose.yml para facilitar a orquestração.
     - Documentação com OpenAPI: Implementar a documentação da API utilizando a especificação OpenAPI, permitindo que outros desenvolvedores visualizem e testem os endpoints de forma interativa.
     - Controller Advice: Implementar um Controller Advice para tratamento de erros, garantindo que exceções sejam capturadas e retornadas em um formato JSON consistente.
 
@@ -26,7 +26,7 @@ Requisitos Técnicos.
 
 # Desenvolvedor Sênior 
    
-O teste consiste em desenvolver uma aplicação API-REST robusta e escalável para cálculos de data e valor, utilizando Java 17 com o framework Spring Boot. O objetivo é criar um endpoint que receba a data de admissão e o valor salarial bruto, com as seguintes especificações.
+O teste consiste em desenvolver uma aplicação API-REST robusta e escalável para cálculos de data e valor, utilizando Java na versão 17 ou superior com o framework Spring Boot. O objetivo é criar um endpoint que receba a data de admissão e o valor salarial bruto, com as seguintes especificações.
 
     - Validação de Campos: Implementar uma validação rigorosa para garantir a tipagem correta e o controle de caracteres, utilizando anotações de validação do Spring.
     - Cálculo e Retorno: O endpoint deve retornar um JSON que inclua:
@@ -51,7 +51,7 @@ Requisitos Técnicos.
 
 Desenvolvimento de uma API-REST e Integração com Next.js
 
-O desafio consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java 17 com o framework Spring Boot e uma API em Next.js para interface do usuário. O objetivo é desenvolver um endpoint que receba a data de admissão,o valor salarial bruto e cep(uma chamada externa à API do ViaCEP para obter informações de endereço.) As tarefas a serem realizadas incluem.
+O desafio consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java na versão 17 ou superior com o framework Spring Boot e uma API em Next.js para interface do usuário. O objetivo é desenvolver um endpoint que receba a data de admissão,o valor salarial bruto e cep. As tarefas a serem realizadas incluem.
 
     * Validação de Campos: Implementar validações rigorosas para garantir a tipagem correta e o controle de caracteres dos campos recebidos.
     * Cálculo e Retorno: Ao receber a data e o valor, o endpoint deve retornar um JSON com:
@@ -61,7 +61,8 @@ O desafio consiste em criar uma aplicação API-REST para cálculos de data e va
     * Chamada Externa: Realizar uma chamada à API do ViaCEP para obter informações de endereço com base no CEP fornecido pelo usuário.
     * Persistência de Dados: Os dados devem ser salvos em um banco de dados MongoDB.
     * Consultas: Criar endpoints RESTful para consulta dos dados salvos, permitindo acesso global e individual, com suporte a filtros e paginação.
-    * Documentação e Testes: O retorno deve ser validado utilizando Insomnia, Postman ou Curl. Implementar testes automatizados (unitários e de integração) para garantir a qualidade do código.
+    * Documentação e Testes: O retorno deve ser validado utilizando Insomnia, Postman ou Curl. 
+    * Implementar testes automatizados (unitários e de integração) para garantir a qualidade do código.
     * Configuração Docker: O projeto deve ser configurado para rodar em um ambiente Docker, incluindo um Dockerfile e um docker-compose.yml para facilitar a orquestração.
     * Documentação com OpenAPI: Criar uma documentação detalhada utilizando a especificação OpenAPI, garantindo que todos os endpoints, parâmetros e respostas sejam bem descritos, incluindo exemplos de requisições e respostas.
     * Controller Advice: Implementar um Controller Advice para tratamento de erros, garantindo que exceções sejam capturadas e retornadas em um formato JSON consistente e informativo.
@@ -80,4 +81,6 @@ Dicas para o Candidato.
     * Foque na qualidade do código e na documentação.
     * Considere a arquitetura da aplicação e como os componentes se comunicam.
     * Teste as chamadas externas e a integração entre a API e o Next.js.
+    * Caso tenha algum tratamento a acrescentar na API, isso será avaliado também.
+
 
