@@ -25,7 +25,8 @@ Requisitos Técnicos.
 
 
 # Desenvolvedor Sênior / Tech Leader 
-
+ * Tech Leader -> Desejavel conhecimento em typescript/Nextjs  Python*(Lambdas e aplicações) AWS/GCP*(Diversos serviços)
+   
 O teste consiste em desenvolver uma aplicação API-REST robusta e escalável para cálculos de data e valor, utilizando Java 17 com o framework Spring Boot. O objetivo é criar um endpoint que receba a data de admissão e o valor salarial bruto, com as seguintes especificações.
 
     - Validação de Campos: Implementar uma validação rigorosa para garantir a tipagem correta e o controle de caracteres, utilizando anotações de validação do Spring.
