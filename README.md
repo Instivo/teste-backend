@@ -50,12 +50,13 @@ Requisitos Técnicos.
 
 Desenvolvimento de uma API-REST e Integração com Next.js
 
-O desafio consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java 17 com o framework Spring Boot e uma API em Next.js para interface do usuário. O objetivo é desenvolver um endpoint que receba a data de admissão e o valor salarial bruto, além de realizar uma chamada externa à API do ViaCEP para obter informações de endereço. As tarefas a serem realizadas incluem.
+O desafio consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java 17 com o framework Spring Boot e uma API em Next.js para interface do usuário. O objetivo é desenvolver um endpoint que receba a data de admissão,o valor salarial bruto e cep(uma chamada externa à API do ViaCEP para obter informações de endereço.) As tarefas a serem realizadas incluem.
 
     * Validação de Campos: Implementar validações rigorosas para garantir a tipagem correta e o controle de caracteres dos campos recebidos.
     * Cálculo e Retorno: Ao receber a data e o valor, o endpoint deve retornar um JSON com:
         ◦ Cálculo de quantos dias, meses e anos se passaram até a data atual.
         ◦ 35% do salário bruto.
+        - Dados completos do cep
     * Chamada Externa: Realizar uma chamada à API do ViaCEP para obter informações de endereço com base no CEP fornecido pelo usuário.
     * Persistência de Dados: Os dados devem ser salvos em um banco de dados MongoDB.
     * Consultas: Criar endpoints RESTful para consulta dos dados salvos, permitindo acesso global e individual, com suporte a filtros e paginação.
