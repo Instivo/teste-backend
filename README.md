@@ -50,7 +50,8 @@ Requisitos Técnicos.
 
 Desenvolvimento de uma API-REST e Integração com Next.js
 
-O desafio consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java 17 com o framework Spring Boot e uma API em Next.js para interface do usuário. O objetivo é desenvolver um endpoint que receba a data de admissão e o valor salarial bruto, além de realizar uma chamada externa à API do ViaCEP para obter informações de endereço. As tarefas a serem realizadas incluem:
+O desafio consiste em criar uma aplicação API-REST para cálculos de data e valor utilizando Java 17 com o framework Spring Boot e uma API em Next.js para interface do usuário. O objetivo é desenvolver um endpoint que receba a data de admissão e o valor salarial bruto, além de realizar uma chamada externa à API do ViaCEP para obter informações de endereço. As tarefas a serem realizadas incluem.
+
     * Validação de Campos: Implementar validações rigorosas para garantir a tipagem correta e o controle de caracteres dos campos recebidos.
     * Cálculo e Retorno: Ao receber a data e o valor, o endpoint deve retornar um JSON com:
         ◦ Cálculo de quantos dias, meses e anos se passaram até a data atual.
@@ -64,13 +65,15 @@ O desafio consiste em criar uma aplicação API-REST para cálculos de data e va
     * Controller Advice: Implementar um Controller Advice para tratamento de erros, garantindo que exceções sejam capturadas e retornadas em um formato JSON consistente e informativo.
     * API em Next.js: Criar uma aplicação em Next.js que consuma a API desenvolvida em Spring Boot, permitindo que os usuários insiram a data de admissão, o valor salarial bruto e o CEP, exibindo os resultados de forma amigável.
 
-Requisitos Técnicos:
+Requisitos Técnicos.
+
     * Domínio de princípios S.O.L.I.D e Clean Code, aplicando-os em todos os aspectos do desenvolvimento.
     * Experiência avançada com Spring Boot, MongoDB e Next.js.
     * Capacidade de projetar e implementar APIs REST escaláveis e seguras.
     * Habilidade em realizar code reviews e mentorias para desenvolvedores menos experientes.
 
-Dicas para o Candidato
+Dicas para o Candidato.
+
     * Organize seu tempo: divida a hora em partes para cada tarefa.
     * Foque na qualidade do código e na documentação.
     * Considere a arquitetura da aplicação e como os componentes se comunicam.
