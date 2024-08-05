@@ -46,7 +46,7 @@ Requisitos Técnicos.
     - Capacidade de projetar e implementar APIs REST escaláveis e seguras.
     - Habilidade em realizar code reviews e mentorias para desenvolvedores menos experientes.
 
-# Descritivo do Teste Backend para Tech Lead
+# Tech Lead
 
 Desenvolvimento de uma API-REST e Integração com Next.js
 
