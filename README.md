@@ -76,8 +76,10 @@ Requisitos Técnicos.
     * Habilidade em realizar code reviews e mentorias para desenvolvedores menos experientes.
 
 # Teste IV
-    *O objetivo é desenvolver uma API REST para cálculos de data e valor utilizando Node.js com TypeScript e um framework como NestJS ou Express. Além disso, deve haver uma interface em Next.js para interação com o usuário.
 
+    * O objetivo é desenvolver uma API REST para cálculos de data e valor utilizando Node.js com TypeScript e um framework como NestJS ou Express. 
+      Além disso, deve haver uma interface em Next.js para interação com o usuário.
+    
 O endpoint principal deverá receber data de admissão, valor salarial bruto e CEP, e processar as seguintes tarefas:
 
 ✅ Requisitos Funcionais
