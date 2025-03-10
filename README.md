@@ -114,14 +114,15 @@ Tratamento de Erros:
 
 Criar uma aplicação em Next.js que consuma a API desenvolvida, permitindo inserção e exibição dos resultados de forma amigável.
 📌 Requisitos Técnicos
-🔹 Experiência avançada com TypeScript e Node.js.
-🔹 Conhecimento em NestJS ou Express para criação da API.
-🔹 Domínio de MongoDB (Mongoose ou Prisma).
-🔹 Experiência com Next.js para desenvolvimento da interface.
-🔹 Conhecimento sólido em SOLID, Clean Code e boas práticas de arquitetura.
-🔹 Experiência na implementação de APIs REST seguras e escaláveis.
-🔹 Habilidade em realizar code reviews e mentorias.
-🔹 Experiência com Docker e CI/CD.
+
+    🔹 Experiência avançada com TypeScript e Node.js.    
+    🔹 Conhecimento em NestJS ou Express para criação da API.
+    🔹 Domínio de MongoDB (Mongoose ou Prisma).
+    🔹 Experiência com Next.js para desenvolvimento da interface.
+    🔹 Conhecimento sólido em SOLID, Clean Code e boas práticas de arquitetura.
+    🔹 Experiência na implementação de APIs REST seguras e escaláveis.
+    🔹 Habilidade em realizar code reviews e mentorias.
+    🔹 Experiência com Docker e CI/CD.
 
 Dicas para o Candidato.
 
